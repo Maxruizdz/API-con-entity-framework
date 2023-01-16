@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "ignored": "true",
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:bd",
+      "dynamicId": null
+    },
+    "mssql2": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/serversentidos1/databases/Dbrestaurant",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:bd1",
+      "dynamicId": null
+    }
+  }
+}
